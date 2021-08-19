@@ -1,0 +1,6 @@
+CREATE TABLE list
+(
+    Lid SERIAL PRIMARY KEY,
+    Pid INT REFERENCES people(Pid),
+    lname VARCHAR(50) NOT NULL
+)

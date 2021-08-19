@@ -1,0 +1,5 @@
+CREATE TABLE People
+(
+    Pid SERIAL PRIMARY KEY,
+    Pfname VARCHAR(50) NOT NULL
+);
